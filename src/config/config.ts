@@ -1,0 +1,31 @@
+
+
+export const CONFIG = {
+    ENVIRONMENT: process.env.ENVIRONMENT,
+    DB_HOST: process.env.DB_HOST,
+    DB_USER: process.env.DB_USER,
+    DB_PASS: process.env.DB_PASS,
+    DB_ENV: process.env.DB_ENV,
+    DB_NAME: process.env.DB_NAME,
+    DB_PORT: process.env.DB_PORT,
+    DEFAULT_UI_DOMAIN: process.env.DEFAULT_UI_DOMAIN,
+    SUPPORT_EMAIL: process.env.SUPPORT_EMAIL,
+    BUCKET_NAME: process.env.BUCKET_NAME,
+    REPORTER_EMAIL: process.env.REPORTER_EMAIL,
+    VIDEO_STORAGE_PATH: process.env.VIDEO_STORAGE_PATH,
+    SHELL_SCRIPT_PATH: process.env.SHELL_SCRIPT_PATH,
+    S3_ACCESS_KEY_ID: process.env.S3_ACCESS_KEY_ID,
+    S3_SECRET_ACCESS_KEY: process.env.S3_SECRET_ACCESS_KEY,
+    S3_BUCKET_NAME: process.env.S3_BUCKET_NAME,
+    S3_BUCKET_PREFIX: process.env.S3_BUCKET_PREFIX || '',
+    EC2_ACCESS_KEY_ID: process.env.S3_ACCESS_KEY_ID,
+    EC2_SECRET_ACCESS_KEY: process.env.S3_SECRET_ACCESS_KEY,
+    EC2_REGION: process.env.EC2_REGION,
+    GPU_INSTANCE_ID: '' + process.env.GPU_INSTANCE_ID,
+    OCI_USER: `${process.env.OCI_USER}`,
+    OCI_FINGERPRINT: `${process.env.OCI_FINGERPRINT}`,
+    OCI_KEY_FILE: `${process.env.OCI_KEY_FILE}`,
+    OCI_TENANCY: `${process.env.OCI_TENANCY}`,
+    OCI_REGION: `${process.env.OCI_REGION}`,
+    INFRASTRUCTURE_PROVIDER: `${process.env.INFRASTRUCTURE_PROVIDER}`
+}
